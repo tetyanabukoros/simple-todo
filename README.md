@@ -1,1 +1,1 @@
-[DEMO](https://github.com/tetyanabukoros/simple-todo/settings/pages)
+[DEMO](https://tetyanabukoros.github.io/simple-todo/)
