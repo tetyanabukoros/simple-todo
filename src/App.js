@@ -5,11 +5,11 @@ import { TaskField } from './components/TaskField';
 function App() {
   const [tasks, setTasks] = React.useState([
     {
-      text: 'Изучить ReactJS',
+      text: 'ReactJS',
       completed: true,
     },
     {
-      text: 'Разработать ToDo на ReactJS',
+      text: 'TS',
       completed: false,
     },
   ]);
@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="todo">
       <div className="todo__header">
-        <h4>Список задач</h4>
+        <h4>Todo list</h4>
       </div>
       <TaskField onAddTask={onAddTask} />
       <div className="todo__list">

@@ -27,7 +27,7 @@ export const TaskField = ({ onAddTask }) => {
         value={text}
         onChange={handleInputChange}
         type="text"
-        placeholder="Введите текст задачи..."
+        placeholder="Type your task..."
         onKeyUp={handleKeyUp}
       />
       <button onClick={addTask} className="todo__add-field-button">
